@@ -5,7 +5,7 @@ import pandas as pd
 
 st.markdown("""# This is a header.
 # This is another header
-This is text""")
+## This is a sub-header""")
 
 df = pd.DataFrame({
     'first column': list(range(1, 11)),
